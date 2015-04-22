@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="siirtyminenfragmenteilla.app" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".adapterit.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/vmaatilat_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-feature android:name="android.hardware.camera" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FragmentHolder"
+            android:label="@string/app2_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name=".perusfragmentin_alisivut.maatilanLisatiedot"
+            android:label="@string/title_activity_maatilan_lisatiedot"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".perusfragmentin_alisivut.tyoHarjoittelunlisatiedot"
+            android:label="@string/title_activity_tyo_harjoittelunlisatiedot"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name=".kotielaintuotannon_alisivut.kotielainJalostus"
+            android:label="@string/title_activity_kotielain_jalostus"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".kotielaintuotannon_alisivut.kirjanPito"
+            android:label="@string/title_activity_kirjan_pito"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".kasvituotannon_alisivut.Kalkitus"
+            android:label="@string/title_activity_kalkitus"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".kasvituotannon_alisivut.KasvinSuojelu"
+            android:label="@string/title_activity_kasvin_suojelu"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".kasvituotannon_alisivut.euVaatimuksetAlisivu"
+            android:label="@string/title_activity_eu_vaatimukset_alisivu"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".kotielaintuotannon_alisivut.ElaintenRuokintaAlisivu"
+            android:label="@string/title_activity_elainten_ruokinta_alisivu"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name=".kotielaintuotannon_alisivut.terveydenHuoltoAlisivu"
+            android:label="@string/title_activity_terveyden_huolto_alisivu"
+            android:theme="@style/Theme.AppCompat.Light" >
+        </activity>
+        <activity
+            android:name=".kotielaintuotannon_alisivut.lypsyRutiinitAlisivu"
+            android:label="@string/title_activity_lypsy_rutiinit_alisivu"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".kotielaintuotannon_alisivut.tuotantoKierto"
+            android:label="@string/title_activity_tuotanto_kierto"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".kotielaintuotannon_alisivut.tuotosTasotAlisivu"
+            android:label="@string/title_activity_tuotos_tasot_alisivu"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".kotielaintuotannon_alisivut.tuotteetAlisivu"
+            android:label="@string/title_activity_tuotteet_alisivu"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".metsatalouden_alisivut.metsikonPerustiedot"
+            android:label="@string/title_activity_metsikon_perustiedot"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".metsatalouden_alisivut.metsikonTalous"
+            android:label="@string/title_activity_metsikon_talous"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".yritystoiminnan_alisivut.yrityksenMenestystekijat"
+            android:label="@string/title_activity_yrityksen_menestystekijat"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".yritystoiminnan_alisivut.YllapitoJaKehittaminen"
+            android:label="@string/title_activity_yllapito_ja_kehittaminen"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".yritystoiminnan_alisivut.tulevaisuudenNakymat"
+            android:label="@string/title_activity_tulevaisuuden_nakymat"
+            android:theme="@style/Theme.AppCompat.Light">
+        </activity>
+        <activity
+            android:name=".perusfragmentin_alisivut.discussionActivity"
+            android:label="@string/title_activity_discussion" >
+        </activity>
+        <activity
+            android:name=".perusfragmentin_alisivut.WorkTimeReport"
+            android:label="@string/title_activity_work_time_report" >
+        </activity>
+
+                <activity
+                    android:name=".CAMperustiedot"
+                    android:label="@string/title_activity_camperustiedot" >
+                </activity>
+
+
+        <application android:name=".apuluokat.MyApp" >
+        </application>
+
+
+    </application>
+
+</manifest>

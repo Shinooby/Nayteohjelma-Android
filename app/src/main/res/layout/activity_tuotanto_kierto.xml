@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="siirtyminenfragmenteilla.app.kotielaintuotannon_alisivut.tuotantoKierto">
+
+    <TextView
+        android:text="Tuotantokierto. Vuosittain toistuvat tapahtumat."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:focusable="false"
+        android:id="@+id/vuosittainToistuvatTapahtumatEditText"
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp" />
+    <TextView
+        android:text="Päivä- ja/tai viikkorutiinit harjoitteluaikana ja niihin kuluva aika."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:focusable="false"
+        android:id="@+id/rutiinitJaNiihinKuluvaAikaEditText"
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp" />
+
+    <ImageButton
+        android:id="@+id/kuviaPaivaRutiineistaButton"
+        android:background="@null"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dayroutines"/>
+
+</LinearLayout>

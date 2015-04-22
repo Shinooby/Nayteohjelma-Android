@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Late\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.6\29b513697b61a2fdbc8a9c2ca5a9f2b0e63482a4\library-1.0.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="29b513697b61a2fdbc8a9c2ca5a9f2b0e63482a4">
+        <dex dex="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\pre-dexed\debug\library-1.0.6-055147fab2051d5e7c0891aa05b09f76a48502e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Late\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.4.2\8e31266a272ad25ac4c089734d93e8d811652c1f\jackson-databind-2.4.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8e31266a272ad25ac4c089734d93e8d811652c1f">
+        <dex dex="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\pre-dexed\debug\jackson-databind-2.4.2-ac9bb19a3c3709956e833597ba4de75e734f3c19.jar" />
+    </item>
+    <item
+        jar="C:\Users\Late\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\18.0\cce0823396aa693798f8882e64213b1772032b09\guava-18.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\pre-dexed\debug\guava-18.0-a162edcee81fb2f166fd4541e761087231e6d59c.jar" />
+    </item>
+    <item
+        jar="T:\Näyteohjelma\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="T:\Näyteohjelma\app\build\intermediates\pre-dexed\debug\classes-81fe42931801f0fd2cb54f3e26b237a87cb4b019.jar" />
+    </item>
+    <item
+        jar="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-8b4bacab09a42a2fdbe2002be0ba0d0b7ace1668.jar" />
+    </item>
+    <item
+        jar="T:\android sdk uusi sijainti\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-3069f303e6c21beb6fba6ece3c36fef045f095ed.jar" />
+    </item>
+    <item
+        jar="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\pre-dexed\debug\classes-10648c728007cd250ad887bad27011808cd362da.jar" />
+    </item>
+    <item
+        jar="T:\Näyteohjelma\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="T:\Näyteohjelma\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-2a8f7d5394c2f0278eacf88796145c36bb92fc2c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Late\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.4.2\ceb72830d95c512b4b300a38f29febc85bdf6e4b\jackson-core-2.4.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ceb72830d95c512b4b300a38f29febc85bdf6e4b">
+        <dex dex="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\pre-dexed\debug\jackson-core-2.4.2-fb13f406df169d0324fcabedd8b1270c4f31768a.jar" />
+    </item>
+    <item
+        jar="T:\Näyteohjelma\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="T:\Näyteohjelma\app\build\intermediates\pre-dexed\debug\classes-efe6d62953d80a9060eba42b594bf5afc0419b40.jar" />
+    </item>
+    <item
+        jar="C:\Users\Late\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.4.0\d6a66c7a5f01cf500377bd669507a08cfeba882a\jackson-annotations-2.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d6a66c7a5f01cf500377bd669507a08cfeba882a">
+        <dex dex="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.4.0-317961eda1224bb6063f70453f4b7f70921910bf.jar" />
+    </item>
+    <item
+        jar="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="T:\Android jutut\Virtuaalimaatila\app\build\intermediates\pre-dexed\debug\classes-0f2f4c298eca281c1538893a058fb23b3a303df1.jar" />
+    </item>
+
+</items>

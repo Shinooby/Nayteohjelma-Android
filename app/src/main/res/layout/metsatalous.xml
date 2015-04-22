@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/metsikonPerustiedotButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/forestbasicinfo"/>
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/taimikonHoitoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/taimikonhoito"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/kasvatusHakkuutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/kasvatushakkuut"/>
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/metsanUudistaminenButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/forestrenewal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/metsanTerveysButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/foresthealth"/>
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/metsataloudenKoneetjaKalustoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/metsataloudenkoneet"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/metsikonTalousButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/foresteconomy"/>
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/tehdytMetsanhoitotyotButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/tehdytmetsanhoitotyot"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:id="@+id/metsätaloudenArviointiOtsikko"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ei käsitelty"
+                android:textColor="@color/Gray"/>
+
+            <TextView
+                android:id="@+id/metsätaloudenArviointiLisätietoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

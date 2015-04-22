@@ -1,0 +1,1 @@
+include ':app', ':jackson-databind-2.4.2-javadoc'

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="siirtyminenfragmenteilla.app.kotielaintuotannon_alisivut.kotielainJalostus">
+
+    <TextView
+        android:text="KotieläinJalostus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uudiseläinten kasvatus. Itse, osto ja arvioitu määrä"/>
+
+    <EditText
+        android:focusable="false"
+        android:id="@+id/uudiselaintenKasvatusLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jalostus. Miten tehdään, mihin kiinnitetään jalostuksessa huomiota?"/>
+    <EditText
+        android:focusable="false"
+        android:id="@+id/jalostusLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp" />
+    <ImageButton
+        android:background="@null"
+        android:id="@+id/rodutImageButton"
+        android:src="@drawable/animalspecie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

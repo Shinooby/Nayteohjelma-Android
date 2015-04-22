@@ -1,0 +1,399 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="sisaankirjautuminen.layoutit.app.MainActivity">
+    <!--android:background="@color/black" -->
+
+   <!-- // tilaa actionbarille
+
+    //Relative layout tähän jotta saataisiin useampi LinearLayout toimimaan
+    //Scrollview:n kanssa
+-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <com.android.volley.toolbox.NetworkImageView
+                    android:layout_gravity="left"
+                    android:id="@+id/kuvanlisays"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/lisaakuva"
+                    android:layout_margin="10dp"/>
+                <Button
+                    android:id="@+id/buttonKuvanOttamiselle"
+                    android:text="Lisää/Muuta maatilan kuvaa"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Maatilan nimi"
+                    android:layout_weight="0"
+                    android:layout_margin="10dp"/>
+                <EditText
+                    android:maxLength="50"
+                    android:focusable="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/maatilanNimiLayout"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Y-tunnus"
+                    android:layout_weight="0"
+                    android:layout_margin="10dp"/>
+
+                <EditText
+                    android:maxLength="50"
+                    android:focusable="false"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/ytunnusLayout"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yhteyshenkilö:"
+                        android:layout_weight="0"
+                        android:layout_marginLeft="10dp"
+                        />
+
+            <EditText
+                android:focusable="false"
+                android:layout_width="fill_parent"
+                android:id="@+id/yhteyshenkiloLayout"
+                android:layout_height="wrap_content" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Osoite:"
+                        android:layout_weight="0"
+                        android:layout_marginLeft="10dp"
+                        />
+                <EditText
+                    android:maxLength="20"
+                    android:focusable="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/osoiteLayout"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Postiosoite:"
+                        android:layout_weight="0"
+                        android:layout_marginLeft="10dp"
+                        />
+
+
+                <EditText
+                    android:maxLength="10"
+                    android:focusable="false"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/postiosoiteLayout"
+                    android:layout_height="wrap_content"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Postitoimipaikka:"
+                        android:layout_weight="0"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                <EditText
+                    android:maxLength="20"
+                    android:focusable="false"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/postitoimipaikkaLayout"
+                    android:layout_height="wrap_content"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Puhelinnumero"
+                        android:layout_weight="0"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                <EditText
+                    android:maxLength="20"
+                    android:focusable="false"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/puhelinnroLayout"
+                    android:layout_height="wrap_content"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fax:"
+                        android:layout_weight="0"
+                        android:layout_marginLeft="10dp"
+                        />
+                <EditText
+                    android:maxLength="20"
+                    android:focusable="false"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/faxLayout"
+                    android:layout_height="wrap_content"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sähköposti:"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0"
+                        />
+
+                <EditText
+                    android:maxLength="20"
+                    android:focusable="false"
+                    android:layout_width="fill_parent"
+                    android:id="@+id/sahkopostiLayout"
+                    android:layout_height="wrap_content"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Web-osoite:"
+                        android:layout_marginLeft="10dp"
+                        />
+                <EditText
+                    android:maxLength="20"
+                    android:focusable="false"
+                    android:id="@+id/web_osoiteLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muut tiedot"
+                android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="Maatilan tuotantosuunta"/>
+
+                        <EditText
+                            android:maxLength="100"
+                            android:focusable="false"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/maatilanTuotantosuuntaLayout"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="Lisätietoa"/>
+
+                    <EditText
+                        android:maxLength="1000"
+                        android:focusable="false"
+                        android:layout_width="fill_parent"
+                        android:id="@+id/lisatietoaTuotantosuunnastaLayout"
+                        android:layout_height="wrap_content"
+                        />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="Eläimet"/>
+
+                        <EditText
+                            android:maxLength="100"
+                            android:focusable="false"
+                            android:id="@+id/elaimetLayout"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:text="Pinta-ala tiedot"/>
+
+                        <EditText
+                            android:maxLength="100"
+                            android:focusable="false"
+                            android:id="@+id/pintaalatiedotLayout"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            />
+
+                    </TableRow>
+
+
+
+
+                <TableRow
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:weightSum="6" >
+
+                <CheckBox
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/asuntoopiskelijalleCheckbox"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Asunto opiskelijalle"/>
+
+                </TableRow>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lisätietoa:"/>
+
+                 <EditText
+                android:focusable="false"
+                android:maxLength="100"
+                android:id="@+id/lisatietoaYleisestiLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

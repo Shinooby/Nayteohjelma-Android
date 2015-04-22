@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    android:orientation="vertical"
+    tools:context="siirtyminenfragmenteilla.app.perusfragmentin_alisivut.discussionActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/listviewDiscussionsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:dividerHeight="5dp"
+            android:layout_marginTop="20dp">
+            </ListView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+            android:weightSum="8">
+    <EditText
+        android:id="@+id/newMessageLayout"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="7"
+        android:maxLength="1000"/>
+    <Button
+        android:id="@+id/buttonToSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Lähetä"/>
+</LinearLayout>
+
+</LinearLayout>

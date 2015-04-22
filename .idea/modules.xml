@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Näyteohjelma.iml" filepath="$PROJECT_DIR$/Näyteohjelma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jackson-databind-2.4.2-javadoc/jackson-databind-2.4.2-javadoc.iml" filepath="$PROJECT_DIR$/jackson-databind-2.4.2-javadoc/jackson-databind-2.4.2-javadoc.iml" />
+    </modules>
+  </component>
+</project>
+

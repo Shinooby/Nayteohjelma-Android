@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:yourapp = "http://schemas.android.com/apk/res-auto"
+    tools:context="siirtyminenfragmenteilla.app.perusfragmentin_alisivut.tyoHarjoittelunlisatiedot" >
+
+    <item android:id="@+id/action_discuss"
+        android:title="Keskustelu"
+        android:icon="@drawable/keskusteluikoni"
+        yourapp:showAsAction = "ifRoom"
+        android:showAsAction="always" />
+    <item android:id="@+id/action_worktime"
+        android:title="Työaikojen raportointi"
+        android:icon="@drawable/tyoaikojenraportointiikoni"
+        yourapp:showAsAction = "ifRoom"
+        android:showAsAction="always" />
+</menu>

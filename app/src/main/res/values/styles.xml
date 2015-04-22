@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+      <!--  <item name="android:actionBarTabStyle">@style/Widget.MyTabText</item> -->
+        <item name="android:actionBarTabTextStyle">@style/Widget.MyTabText</item>
+    </style>
+    <style name="LightTheme" parent="@android:style/Theme.Light">
+        <item name="android:actionBarTabTextStyle">@style/Widget.MyTabText</item>
+    </style>
+
+    <style name="BlackTheme" parent="@android:style/Theme.Black">
+        <item name="android:actionBarTabTextStyle">@style/Widget.MyTabText</item>
+    </style>
+
+    <style name="TestHoloTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarTabTextStyle">@style/Widget.MyTabText</item>
+    </style>
+
+    <style name="Widget.MyTabText" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:textSize">2dp</item>
+    </style>
+
+</resources>

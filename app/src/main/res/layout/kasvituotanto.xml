@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/perusmuokkausButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/perusmuokkaus"/>
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/kylvomuokkausButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/kylvomuokkaus"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/lannoitusButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/lannoitus"/>
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/kylvoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/kylvo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:weightSum="2">
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/kasvinSuojeluButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/kasvinsuojelu"/>
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/viljasadonKorkuuButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/viljasadonkorjuu"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:weightSum="2">
+
+
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/nurmisadonKorjuuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nurmisadonkorjuu"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/sadonJatkokäsittelyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/sadonjatkokasittely"/>
+
+</LinearLayout>
+
+
+
+        <ImageButton
+            android:background="@null"
+            android:id="@+id/kalkitusButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kalkitus"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"/>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:id="@+id/kasvituotannonArviointiOtsikko"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ei käsitelty"
+                android:textColor="@color/Gray"/>
+
+            <TextView
+                android:id="@+id/kasvituotannonArviointiLisätietoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Virtuaalimaatilat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="kirjautumisbuttontext">Kirjaudu sisään</string>
+    <string name="kayttajatunnuslabel">Käyttäjätunnus</string>
+    <string name="salasanalabel">Salasana</string>
+    <string name="app2_name">Virtuaalimaatilat</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ytunnuslabel">Maatilan Y-tunnus</string>
+    <string name="maatilannimilabel">Maatilan nimi</string>
+    <string name="yritystoimintaselostus">Hiomista riittää mutta hyväksyn tämän</string>
+    <string name="kuvan_otto">Haluatko ottaa kuvan?</string>
+    <string name="kylla">Kyllä</string>
+    <string name="cancel">Ei</string>
+    <string name="title_activity_maatilan_lisatiedot">Maatilan Lisätiedot</string>
+    <string name="title_activity_tyo_harjoittelunlisatiedot">Työharjoittelun Lisätiedot</string>
+    <string name="title_activity_kotielain_jalostus">KotieläinJalostus</string>
+    <string name="title_activity_kirjan_pito">Kirjanpito</string>
+    <string name="title_activity_kalkitus">Kalkitus</string>
+    <string name="title_activity_kasvin_suojelu">Kasvinsuojelu</string>
+    <string name="title_activity_eu_vaatimukset_alisivu">EU-vaatimukset</string>
+    <string name="title_activity_elainten_ruokinta_alisivu">Eläinten ruokinta ja rehunkulutus</string>
+    <string name="title_activity_terveyden_huolto_alisivu">Terveydenhuolto ja sairauksien ennaltaehkäisy</string>
+    <string name="title_activity_lypsy_rutiinit_alisivu">Tilan Lypsyrutiinit</string>
+    <string name="title_activity_tuotanto_kierto">Tuotantokierto</string>
+    <string name="title_activity_tuotos_tasot_alisivu">Saavutetut tuotostasot</string>
+    <string name="title_activity_tuotteet_alisivu">Tuotteet, laatuluokittelu ja tuottajahinta</string>
+    <string name="title_activity_metsikon_perustiedot">Metsälön perustiedot</string>
+    <string name="title_activity_metsikon_talous">Metsälön talous</string>
+    <string name="title_activity_yrityksen_menestystekijat">Yrityksen menestystekijöiden arviointi</string>
+    <string name="title_activity_yllapito_ja_kehittaminen">Tuotannon tarkkailu, tiedonhankinta ja yrityksen kehittäminen</string>
+    <string name="title_activity_tulevaisuuden_nakymat">Perusmaatalouden tulevaisuuden näkymät</string>
+    <string name="title_activity_custom_dialog_class">CustomDialogClass</string>
+    <string name="title_activity_discussion">Keskustelu</string>
+    <string name="title_activity_work_time_report">Työraportit</string>
+    <string name="title_activity_camperustiedot">CAMperustiedot</string>
+    <string name="title_activity_camkuvat">CAMkuvat</string>
+
+</resources>
